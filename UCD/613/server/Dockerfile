@@ -20,7 +20,7 @@ RUN set -x \
 
 ENV JAVA_HOME /opt/java/ibm/java-x86_64-80/jre
 ENV PATH $JAVA_HOME/bin:$PATH
-
+ 
 WORKDIR /opt/ibm-ucd/server
 VOLUME /ucddata
 VOLUME /appsdata
